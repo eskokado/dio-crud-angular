@@ -141,6 +141,11 @@
     },
     "@schematics/angular:directive": {
       "prefix": ""
+    },
+    "@schematics/angular": {
+      "component": {
+        "spec": false
+      }
     }
   },
   "cli": {
