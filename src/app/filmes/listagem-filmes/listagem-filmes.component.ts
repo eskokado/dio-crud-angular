@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Filme } from 'src/app/shared/models/filme';
+import { FilmesService } from './../../core/filmes.service';
+
 @Component({
   selector: 'dio-listagem-filmes',
   templateUrl: './listagem-filmes.component.html',
@@ -7,13 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListagemFilmesComponent implements OnInit {
 
-  constructor() { }
+  filmes: Filme[];
+
+  constructor(
+    private filmesService: FilmesService
+  ) { }
 
   ngOnInit() {
-
-  }
-
-  open() {
+    this.filmesService.listar().subscribe((filmes) => this.filmes = filmes);
   }
 
 }
