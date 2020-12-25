@@ -1,5 +1,6 @@
 {
-  "filmes": [{
+  "filmes": [
+    {
       "id": 1,
       "titulo": "MIB: Homens de Preto",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BOTlhYTVkMDktYzIyNC00NzlkLTlmN2ItOGEyMWQ4OTA2NDdmXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
@@ -88,6 +89,16 @@
       "nota": 7.5,
       "urlIMDb": "https://www.imdb.com/title/tt6146586/",
       "genero": "Ação"
+    },
+    {
+      "titulo": "Uma Invenção de Natal",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMjU1MGEzMTUtNjg4ZC00MjgzLTkxODYtZGU4MGJkMDU0NzA4XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2020-12-01T03:00:00.000Z",
+      "descricao": "An imaginary world comes to life in a holiday tale of an eccentric toymaker, his adventurous granddaughter, and a magical invention that has the power to change their lives forever.",
+      "nota": 8,
+      "urlIMDb": "https://www.imdb.com/title/tt7736496/?ref_=ls_mv",
+      "genero": "Comédia",
+      "id": 10
     }
   ]
 }
