@@ -159,6 +159,36 @@
       "urlIMDb": "",
       "genero": "Terror",
       "id": 16
+    },
+    {
+      "titulo": "teste modal",
+      "urlFoto": "",
+      "dtLancamento": "2020-12-04T03:00:00.000Z",
+      "descricao": "",
+      "nota": 8,
+      "urlIMDb": "",
+      "genero": "Romance",
+      "id": 17
+    },
+    {
+      "titulo": "fdas",
+      "urlFoto": "",
+      "dtLancamento": "2020-12-03T03:00:00.000Z",
+      "descricao": "",
+      "nota": 3,
+      "urlIMDb": "",
+      "genero": "Terror",
+      "id": 18
+    },
+    {
+      "titulo": "testendo",
+      "urlFoto": "",
+      "dtLancamento": "2020-12-14T03:00:00.000Z",
+      "descricao": "",
+      "nota": 5,
+      "urlIMDb": "",
+      "genero": "Romance",
+      "id": 19
     }
   ]
 }
