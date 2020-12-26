@@ -209,6 +209,16 @@
       "urlIMDb": null,
       "genero": "Terror",
       "id": 21
+    },
+    {
+      "titulo": "qubra linhas",
+      "urlFoto": "",
+      "dtLancamento": "2020-12-01T03:00:00.000Z",
+      "descricao": "teste\\nteste\\nteste\\nteste\\n",
+      "nota": 6,
+      "urlIMDb": "",
+      "genero": "Ficção científica",
+      "id": 22
     }
   ]
 }
