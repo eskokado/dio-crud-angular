@@ -9,6 +9,7 @@ import { ListagemFilmesComponent } from './listagem-filmes/listagem-filmes.compo
 
 import { MaterialModule } from '../shared/material/material.module';
 import { CamposModule } from './../shared/components/campos/campos.module';
+import { VisualizarFilmesComponent } from './visualizar-filmes/visualizar-filmes.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -18,6 +19,6 @@ import { CamposModule } from './../shared/components/campos/campos.module';
     CamposModule,
     InfiniteScrollModule,
   ],
-  declarations: [CadastroFilmesComponent, ListagemFilmesComponent]
+  declarations: [CadastroFilmesComponent, ListagemFilmesComponent, VisualizarFilmesComponent]
 })
 export class FilmesModule { }

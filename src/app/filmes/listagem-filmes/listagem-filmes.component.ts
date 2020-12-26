@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import {FormBuilder, FormGroup} from '@angular/forms';
+import { Router } from '@angular/router';
 
 import { debounceTime } from 'rxjs/operators';
 
@@ -26,7 +27,8 @@ export class ListagemFilmesComponent implements OnInit {
 
   constructor(
     private filmesService: FilmesService,
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
@@ -53,6 +55,10 @@ export class ListagemFilmesComponent implements OnInit {
 
   onScroll(): void {
     this.listarFilmes();
+  }
+
+  abrir(id: number): void {
+    this.router.navigateByUrl('/filmes/' + id);
   }
 
   private listarFilmes(): void {
