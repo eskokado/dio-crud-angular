@@ -179,6 +179,16 @@
       "urlIMDb": "",
       "genero": "Terror",
       "id": 18
+    },
+    {
+      "titulo": "testando update",
+      "urlFoto": "testando ddddd",
+      "dtLancamento": "2020-12-03T03:00:00.000Z",
+      "descricao": "",
+      "nota": 3,
+      "urlIMDb": "",
+      "genero": "Terror",
+      "id": 19
     }
   ]
 }
