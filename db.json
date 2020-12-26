@@ -179,46 +179,6 @@
       "urlIMDb": "",
       "genero": "Terror",
       "id": 18
-    },
-    {
-      "titulo": "testendo",
-      "urlFoto": "",
-      "dtLancamento": "2020-12-14T03:00:00.000Z",
-      "descricao": "",
-      "nota": 5,
-      "urlIMDb": "",
-      "genero": "Romance",
-      "id": 19
-    },
-    {
-      "titulo": "fdsaf",
-      "urlFoto": "",
-      "dtLancamento": "2020-12-16T03:00:00.000Z",
-      "descricao": "",
-      "nota": 5,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 20
-    },
-    {
-      "titulo": "asdfasf",
-      "urlFoto": null,
-      "dtLancamento": "2020-12-08T03:00:00.000Z",
-      "descricao": null,
-      "nota": 5,
-      "urlIMDb": null,
-      "genero": "Terror",
-      "id": 21
-    },
-    {
-      "titulo": "qubra linhas",
-      "urlFoto": "",
-      "dtLancamento": "2020-12-01T03:00:00.000Z",
-      "descricao": "teste\\nteste\\nteste\\nteste\\n",
-      "nota": 6,
-      "urlIMDb": "",
-      "genero": "Ficção científica",
-      "id": 22
     }
   ]
 }
